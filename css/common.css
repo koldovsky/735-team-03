@@ -6,6 +6,7 @@
     --text-form-color:#0d0e10;
     --background-color:#000000;
     color: var(--taxt-main-color);
+    font-family: 'Raleway', sans-serif;
 }
 
 * {
