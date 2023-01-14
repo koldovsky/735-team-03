@@ -36,7 +36,7 @@
 
 .about-maze__our-progress {
     padding-top: 20px;
-    padding-bottom: 90px;
+    padding-bottom: 73px;
 }
 
 .about-maze__our-progress>div {
@@ -45,7 +45,8 @@
 
 .our-progress__quantity {
     font-size: 38px;
-    color: var(--text-secondsry-color);
+    color: var(--text-secondary-color);
+    letter-spacing: -.021em;
 }
 
 .our-progress__text {

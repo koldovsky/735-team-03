@@ -4,5 +4,41 @@
 }
 
 .gift .max-width-container {
-    padding: 90px 24px 90px 24px;
+    padding: 57px 24px 90px 24px;
+}
+
+.gift__title {
+    font-size: 40px;
+    font-weight: 900;
+}
+.gift__paragraph {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0;
+    margin-bottom: 38px;
+    margin-top: 25px;
+}
+.gift__short-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.gift__short-form>input {
+    border-radius: 25px;
+    background-color: var(--form-input-color);
+    color: var(--text-input-color);
+    padding: 18px 49px 18px 49px;
+    margin-bottom: 24px;
+    margin-top: 12px;
+    border-width: 0;
+}
+.gift__short-form>input:focus {
+    outline-color: var(--outline-form-input-color);
+}
+.gift .short-form__submit {
+    color: var(--text-main-color);
+    background-color: var(--button-form-color);
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 32px;
 }

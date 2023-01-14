@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 :root {
     --text-main-color:#fff;
     --text-secondary-color:#806eff;
@@ -7,7 +7,10 @@
     --background-form-color:#FFC535;
     --text-form-color:#0d0e10;
     --background-color:#000000;
+    --text-input-color:#000000;
     --text-about-paragraph:#D6D6D6FF;
+    --form-input-color:#FFFFFF38;
+    --outline-form-input-color:#3b99fc;
     color: var(--text-main-color);
     font-family: 'Raleway', sans-serif;
 }
@@ -22,8 +25,9 @@ body {
 }
 @media (max-width: 1170px) {
     
-}
+
 .max-width-container {
     max-width: 1170px;
     margin: auto;
+}
 }
