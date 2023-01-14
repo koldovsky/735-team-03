@@ -8,6 +8,10 @@
     color: var(--taxt-main-color);
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .max-width-container {
     max-width: 1170px;
     margin: auto;
