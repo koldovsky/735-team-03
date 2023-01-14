@@ -1,0 +1,8 @@
+.gift {
+    background-color: var(--background-form-color);
+    color: var(--text-form-color);
+}
+
+.gift .max-width-container {
+    padding: 90px 24px 90px 24px;
+}
