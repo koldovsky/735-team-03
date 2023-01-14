@@ -1,21 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&family=Roboto&display=swap');
 
 :root {
-    --taxt-main-color:#fff;
-    --text-secondsry-color:#806eff;
-    --batton-form-color:#0d0e10;
+    --text-main-color:#fff;
+    --text-secondary-color:#806eff;
+    --button-form-color:#0d0e10;
     --background-form-color:#FFC535;
     --text-form-color:#0d0e10;
     --background-color:#000000;
     --text-about-paragraph:#D6D6D6FF;
-    color: var(--taxt-main-color);
+    color: var(--text-main-color);
     font-family: 'Raleway', sans-serif;
 }
 
 * {
     box-sizing: border-box;
 }
-@media (min-width: 1170px) {
+
+body {
+    margin: 0;
+    background-color: var(--background-color);
+}
+@media (max-width: 1170px) {
     
 }
 .max-width-container {
