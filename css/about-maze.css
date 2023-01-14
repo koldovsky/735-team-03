@@ -1,10 +1,15 @@
 .about-maze {
     background-color: var(--background-color);
+    width: 100%;
 }
 
 .about-maze .max-width-container {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.about-maze__info {
+    padding-top: 30px;
 }
 
 .about-maze__image {
@@ -13,12 +18,14 @@
     object-fit: contain;
     object-position: 50% 50%;
 }
+
 .about-maze__title {
     font-size: 38px;
-    font-weight: 900 ;
+    font-weight: 900;
     line-height: 1.18;
     letter-spacing: -.021em;
 }
+
 .about-maze__paragraph {
     font-size: 17px;
     font-weight: 400;
@@ -27,3 +34,21 @@
     color: var(--text-about-paragraph);
 }
 
+.about-maze__our-progress {
+    padding-top: 20px;
+    padding-bottom: 90px;
+}
+
+.about-maze__our-progress>div {
+    text-align: center;
+}
+
+.our-progress__quantity {
+    font-size: 38px;
+    color: var(--text-secondsry-color);
+}
+
+.our-progress__text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
