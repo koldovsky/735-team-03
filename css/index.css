@@ -1,4 +1,10 @@
 @import url(common.css);
 @import url(header.css);
-@import url(main.css);
+@import url(banner.css);
+@import url(how-to-play.css);
+@import url(slider.css);
+@import url(about-maze.css);
+@import url(coming-soon.css);
+@import url(gallery.css);
+@import url(readyescape.css);
 @import url(footer.css);
