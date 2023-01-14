@@ -5,7 +5,7 @@
     --background-form-color:#FFC535;
     --text-form-color:#0d0e10;
     --background-color:#000000;
-
+    color: var(--taxt-main-color);
 }
 
 .max-width-container {
