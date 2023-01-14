@@ -4,10 +4,11 @@
     --batton-form-color:#0d0e10;
     --background-form-color:#FFC535;
     --text-form-color:#0d0e10;
-
+    --background-color:#000000;
 
 }
 
 .max-width-container {
     max-width: 1170px;
+    margin: auto;
 }
