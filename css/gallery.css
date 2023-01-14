@@ -1,6 +1,40 @@
 
-.header-text {
+.header__text {
     margin: 0;
     display: flex;
+    font-size: 50px;
     justify-content: center;
+}
+
+.image__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-shrink: 3;
+}
+
+.image__one {
+    width: 250px;
+    height: 250px;
+}
+.image__two {
+    width: 436.5px;
+    height: 250px;
+}
+.image__three {
+    width: 343.3px;
+    height: 250.5px;
+}
+.image__four {
+    width: 436.6px;
+    height: 250.8px;
+}
+.image__five {
+    width: 343.3px;
+    height: 250.5px;
+}
+.image__six {
+    width: 250px;
+    height: 250px;
 }
