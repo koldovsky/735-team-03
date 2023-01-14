@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&family=Roboto&display=swap');
 
 :root {
     --taxt-main-color:#fff;
@@ -8,6 +7,7 @@
     --background-form-color:#FFC535;
     --text-form-color:#0d0e10;
     --background-color:#000000;
+    --text-about-paragraph:#D6D6D6FF;
     color: var(--taxt-main-color);
     font-family: 'Raleway', sans-serif;
 }

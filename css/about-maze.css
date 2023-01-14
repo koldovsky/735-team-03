@@ -15,7 +15,15 @@
 }
 .about-maze__title {
     font-size: 38px;
-    font-weight: 900 !important;
+    font-weight: 900 ;
     line-height: 1.18;
     letter-spacing: -.021em;
 }
+.about-maze__paragraph {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25.5px;
+    color: var(--text-about-paragraph);
+}
+
