@@ -15,5 +15,7 @@
 }
 .about-maze__title {
     font-size: 38px;
-    font-weight: 900;
-    
+    font-weight: 900 !important;
+    line-height: 1.18;
+    letter-spacing: -.021em;
+}
