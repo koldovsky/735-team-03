@@ -1,3 +1,18 @@
 .about-maze {
-    background-color: var( --background-color);
+    background-color: var(--background-color);
+}
+
+.about-maze .max-width-container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.about-maze__image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: 50% 50%;
+}
+.about-maze__title {
+    font-size: 38px;
 }
