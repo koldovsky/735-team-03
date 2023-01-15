@@ -59,7 +59,7 @@
     font-size: 17px;
 }
 
-@media (max-width:768px) {
+@media (min-width:768px) {
     .about-maze__info {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -67,7 +67,7 @@
     }
     .about-maze__info>.image-container {
         margin-right: 15px;
-        grid-column: 1/1;
+        grid-column: 1/2;
     }
     .about-maze__info>.text-container {
         margin-left: 15px;
@@ -75,9 +75,34 @@
     }
     .about-maze__title {
         font-size: 44px;
+        margin-top: 0px;
     }
     .about-maze .max-width-container {
         padding-left: 32px;
         padding-right: 32px;
+    }
+    .our-progress__quantity {
+        margin-top: 0px;
+    }
+    .our-progress__text {
+        margin-bottom: 34px;
+    }
+    .about-maze__our-progress {
+        padding-bottom: 62px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto ;
+    }
+    .our-progress__locations {
+        grid-area: 1/1/2/2;
+    }
+    .our-progress__rooms {
+        grid-area: 1/2/2/3;   
+    }
+    .our-progress__squere {
+        grid-area: 2/1/3/2;
+    }
+    .our-progress__customers {
+        grid-area: 2/2/3/3;
     }
 }
