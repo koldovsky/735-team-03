@@ -1,13 +1,27 @@
-.coming-soon__cyberpunk .coming-soon__conainer {
-    
+.coming-soon .max-width-container {
+    padding: 85px 15px 50px 15px;
+}
+
+.coming-soon__title {
+    font-size: 38px;
+    text-align: center;
 }
 
 .coming-soon__treasure-ilend {
     padding-top: 230px;
+    background-image: linear-gradient(var(--overlay-backdround-coming-soon-dark), var(--overlay-backdround-coming-soon-dark)),
+        url(../img/pirat-kid.webp);
+    background-position: 38.44% 49.18%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .coming-soon__dead-or-alive {
     padding-top: 230px;
+}
+
+.coming-soon__cyberpunk .coming-soon__conainer {
+    background-color: var(--background-text-coming-soon);
 }
 
 .coming-soon__conainer {
@@ -15,12 +29,18 @@
     font-size: 22px;
     font-weight: 600;
     text-align: center;
+    margin: 0px 0px 50px 0px;
 }
 
 .coming-soon__cyberpunk {
-    background-image: linear-gradient(var(--overlay-backdround-coming-soon),var(--overlay-backdround-coming-soon)), url(../img/cybepank-man-in-glass.webp);
+    background-image: linear-gradient(var(--overlay-backdround-coming-soon), var(--overlay-backdround-coming-soon)),
+        url(../img/cybepank-man-in-glass.webp);
     background-position: 71.56% 42.15%;
-    background-repeat:  no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     padding-top: 545px;
+}
+
+.coming-soon__line {
+    color: var(--side-line-coming-soon);
 }

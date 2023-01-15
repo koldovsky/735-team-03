@@ -13,6 +13,10 @@
     --form-input-color:#FFFFFF38;
     --outline-form-input-color:#3b99fc;
     --overlay-backdround-coming-soon:#00000030;
+    --overlay-backdround-coming-soon-dark:#00000038;
+    --background-text-coming-soon:#00000082;
+    --background-text-coming-soon-dark:#070B0BC4
+    --side-line-coming-soon:#FFC535;
     color: var(--text-main-color);
     font-family: 'Raleway', sans-serif;
 }
