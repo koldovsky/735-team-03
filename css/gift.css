@@ -42,3 +42,23 @@
     margin-top: 32px;
     margin-bottom: 0px;
 }
+
+@media (min-width:768px) {
+    .gift>.max-width-container {
+        padding-top: 93px;
+        padding-bottom: 58px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .gift__info {
+        grid-column: 1/2;
+    }
+    .gift__short-form {
+        padding-top: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        grid-column: 2/3;
+    }
+
+}
