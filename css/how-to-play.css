@@ -1,0 +1,63 @@
+.how-to-play {
+    vertical-align: baseline;
+    background-color: var(--background-color);
+    color: var(--text-about-paragraph);
+    justify-content: center;
+    padding: 45px 24px 50px 24px;
+}
+
+.how-to-play__title {
+    /**font: var(--accent-font);**/
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: -0.798px;
+    text-align: center;
+    color: var(--text-main-color);
+    margin-bottom: -5px;
+}
+
+.how-to-play__rule {
+    background-color: var(--block-color);
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.rule__pic {
+    filter: invert(90%) sepia(15%) saturate(2847%) hue-rotate(328deg) brightness(104%) contrast(103%);
+    height: 50px;
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 31px;
+    margin-bottom: 22px;
+}
+
+.rule__text {
+    font-family: Roboto, sans-serif;
+    margin-bottom: 34px;
+    font-size: 17px;
+    margin-block-start: 20px;
+}
+
+.how-to-play__rules {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+    .how-to-play__rules {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 992px) {
+    .how-to-play__rules {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
