@@ -1,40 +1,118 @@
-
 .header__text {
-    margin: 0;
+    margin: 44px 0px 51px 0px;
     display: flex;
     font-size: 50px;
     justify-content: center;
 }
 
-.image__container {
+.subtitle__text {
+    margin: 95px 0px 51px 0px;
     display: flex;
-    flex-direction: row;
+    font-size: 50px;
+    justify-content: center;
+}
+
+.reviews__container {
+    margin-bottom: 55px;
+    display: flex;
+    flex-flow: row wrap;
     justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     flex-shrink: 3;
+    gap: 30px;
+    box-sizing: content-box;
+}
+
+.gallery__container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 3;
+    gap: 30px;
+}
+
+.button__container {
+    display: flex;
+    justify-content: center;
+}
+
+.button__instagram {
+    width: 250px;
+    height: 50px;
+    margin-bottom: 50px;
+    border-width: 2px;
+    border-radius: 25px;
+    background-color: black;
+    border-color: #806eff;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.button__text {
+    font: inherit;
+    font-size: 13px;
+    display: flex;
+    align-self: center;
+    padding-left: 10px;
+    color: white;
+}
+
+.button__icon-container {
+    padding-top: 11px;
+}
+
+.instagram__icon {
+    width: 24px;
+    height: 24px;
+    display: flex;
 }
 
 .image__one {
     width: 250px;
     height: 250px;
 }
+
 .image__two {
-    width: 436.5px;
+    width: 436px;
     height: 250px;
 }
+
 .image__three {
-    width: 343.3px;
-    height: 250.5px;
+    width: 343px;
+    height: 250px;
 }
+
 .image__four {
-    width: 436.6px;
-    height: 250.8px;
+    width: 436px;
+    height: 250px;
 }
+
 .image__five {
-    width: 343.3px;
-    height: 250.5px;
+    width: 343px;
+    height: 250px;
 }
+
 .image__six {
     width: 250px;
     height: 250px;
+}
+
+.review__one {
+    width: 353px;
+    height: 345px;
+}
+
+.review__two {
+    width: 353px;
+    height: 345px;
+}
+
+.review__three {
+    width: 353px;
+    height: 345px;
 }
