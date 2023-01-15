@@ -1,22 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
 :root {
-    --text-main-color:#fff;
-    --text-secondary-color:#806eff;
-    --button-form-color:#0d0e10;
-    --background-form-color:#FFC535;
-    --text-form-color:#0d0e10;
-    --background-color:#000000;
-    --text-input-color:#000000;
-    --text-about-paragraph:#D6D6D6FF;
-    --form-input-color:#FFFFFF38;
-    --outline-form-input-color:#3b99fc;
-    --overlay-backdround-coming-soon:#00000030;
-    --overlay-backdround-coming-soon-dark:#00000038;
-    --background-text-coming-soon:#00000082;
-    --background-text-coming-soon-dark:#070B0BC4;
-    --side-line-coming-soon:#FFC535;
+    --text-main-color: #fff;
+    --text-secondary-color: #806eff;
+    --button-form-color: #141616;
+    --background-form-color: #FFC535;
+    --text-form-color: #0d0e10;
+    --background-color: #000000;
+    --text-input-color: #000000;
+    --text-about-paragraph: #D6D6D6FF;
+    --form-input-color: #FFFFFF38;
+    --outline-form-input-color: #3b99fc;
+    --overlay-backdround-coming-soon: #00000030;
+    --overlay-backdround-coming-soon-dark: #00000038;
+    --background-text-coming-soon: #00000082;
+    --background-text-coming-soon-dark: #070B0BC4;
+    --side-line-coming-soon: #FFC535;
     color: var(--text-main-color);
     font-family: 'Raleway', sans-serif;
 }
@@ -29,11 +30,10 @@ body {
     margin: 0;
     background-color: var(--background-color);
 }
-@media (max-width: 1170px) {
-    
 
-.max-width-container {
-    max-width: 1170px;
-    margin: auto;
-}
-}
+/* @media (max-width: 1170px) {
+    .max-width-container {
+        width: 1170px;
+        margin: auto;
+    }
+} */
