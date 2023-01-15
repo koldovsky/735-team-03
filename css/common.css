@@ -31,9 +31,9 @@ body {
     background-color: var(--background-color);
 }
 
-/* @media (max-width: 1170px) {
+@media (min-width: 1180px) {
     .max-width-container {
         width: 1170px;
         margin: auto;
     }
-} */
+}
