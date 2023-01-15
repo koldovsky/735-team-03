@@ -88,6 +88,7 @@
 
     .our-progress__quantity {
         margin-top: 0px;
+        font-size: 44px;
     }
 
     .our-progress__text {
@@ -115,5 +116,14 @@
 
     .our-progress__customers {
         grid-area: 2/2/3/3;
+    }
+}
+@media (min-width:992px) {
+    .about-maze__our-progress {
+        display: flex;
+        justify-content: space-between;
+    }
+    .about-maze__title {
+        font-size: 50px;
     }
 }

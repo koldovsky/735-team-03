@@ -89,11 +89,47 @@
     .coming-soon__dead-or-alive {
         margin-top: 30px;
     }
+
     .coming-soon__dead-or-alive {
         padding-top: 230px;
         margin-left: 15px;
     }
+
     .coming-soon__treasure-ilend {
         margin-right: 15px;
     }
+    .coming-soon__title {
+        font-size: 44px;
+    }
+}
+
+@media (min-width:992px) {
+    .coming-soon .grid-container {
+        grid-template-columns: 17fr 13fr;
+        grid-template-rows: 330px 339px;
+    }
+    .coming-soon__cyberpunk {
+        grid-area: 1/1/3/2;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .coming-soon__treasure-ilend {
+        grid-area: 1/2/2/3;
+        margin-right: 5px;
+        margin-left: 25px;
+        margin-top: 0px;
+    }
+
+    .coming-soon__dead-or-alive {
+        grid-area: 2/2/3/3;
+        margin-right: 5px;
+        margin-left: 25px;
+        margin-top: 30px;
+        padding-top: 209px;
+    }
+    .coming-soon__title {
+        font-size: 50px;
+    }
+
 }

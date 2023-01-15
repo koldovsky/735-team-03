@@ -52,6 +52,7 @@
     }
     .gift__info {
         grid-column: 1/2;
+        margin-right: 20px;
     }
     .gift__short-form {
         padding-top: 5px;
@@ -59,6 +60,7 @@
         flex-direction: column;
         justify-content: flex-start;
         grid-column: 2/3;
+        margin-left: 20px;
     }
 
 }
