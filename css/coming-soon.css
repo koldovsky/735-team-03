@@ -1,9 +1,26 @@
 .coming-soon__cyberpunk .coming-soon__conainer {
-    margin-top: 545px;
+    
+}
+
+.coming-soon__treasure-ilend {
+    padding-top: 230px;
+}
+
+.coming-soon__dead-or-alive {
+    padding-top: 230px;
 }
 
 .coming-soon__conainer {
     padding: 37px;
     font-size: 22px;
     font-weight: 600;
+    text-align: center;
+}
+
+.coming-soon__cyberpunk {
+    background-image: linear-gradient(var(--overlay-backdround-coming-soon),var(--overlay-backdround-coming-soon)), url(../img/cybepank-man-in-glass.webp);
+    background-position: 71.56% 42.15%;
+    background-repeat:  no-repeat;
+    background-size: cover;
+    padding-top: 545px;
 }

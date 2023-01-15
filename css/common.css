@@ -12,6 +12,7 @@
     --text-about-paragraph:#D6D6D6FF;
     --form-input-color:#FFFFFF38;
     --outline-form-input-color:#3b99fc;
+    --overlay-backdround-coming-soon:#00000030;
     color: var(--text-main-color);
     font-family: 'Raleway', sans-serif;
 }
