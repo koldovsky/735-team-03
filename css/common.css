@@ -3,37 +3,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
 :root {
-    --text-main-color: #fff;
+    --text-main-color: #ffffff;
     --text-secondary-color: #806eff;
     --button-form-color: #141616;
-    --background-form-color: #FFC535;
+    --background-form-color: #ffc535;
     --text-form-color: #0d0e10;
     --background-color: #000000;
     --text-input-color: #000000;
-    --text-about-paragraph: #D6D6D6FF;
-    --form-input-color: #FFFFFF38;
+    --text-about-paragraph: #d6d6d6ff;
+    --form-input-color: #ffffff38;
     --outline-form-input-color: #3b99fc;
     --overlay-backdround-coming-soon: #00000030;
     --overlay-backdround-coming-soon-dark: #00000038;
     --background-text-coming-soon: #00000082;
-    --background-text-coming-soon-dark: #070B0BC4;
-    --side-line-coming-soon: #FFC535;
+    --background-text-coming-soon-dark: #070b0bc4;
+    --side-line-coming-soon: #ffc535;
+    --block-color: #121313;
+    --brand-color: #806eff;
+    --accent-color: #ffc535;
     color: var(--text-main-color);
     font-family: 'Raleway', sans-serif;
 }
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 body {
-    margin: 0;
     background-color: var(--background-color);
 }
 
-/* @media (max-width: 1170px) {
+@media (min-width: 1180px) {
     .max-width-container {
         width: 1170px;
         margin: auto;
     }
-} */
+}

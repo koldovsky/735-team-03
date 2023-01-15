@@ -1,10 +1,11 @@
 .coming-soon .max-width-container {
-    padding: 85px 15px 50px 15px;
+    padding: 85px 15px 0px 15px;
 }
 
 .coming-soon__title {
     font-size: 38px;
     text-align: center;
+    margin-bottom: 45px;
 }
 
 .coming-soon__treasure-ilend {
@@ -28,7 +29,9 @@
 .coming-soon__cyberpunk .coming-soon__conainer {
     background-color: var(--background-text-coming-soon);
 }
-.coming-soon__treasure-ilend .coming-soon__conainer, .coming-soon__dead-or-alive .coming-soon__conainer {
+
+.coming-soon__treasure-ilend .coming-soon__conainer,
+.coming-soon__dead-or-alive .coming-soon__conainer {
     background-color: var(--background-text-coming-soon-dark);
 }
 
@@ -51,4 +54,82 @@
 
 .coming-soon__line {
     color: var(--side-line-coming-soon);
+}
+
+@media (min-width:768px) {
+    .coming-soon .max-width-container {
+        padding: 85px 32px 95px 32px;
+    }
+
+    .coming-soon .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .coming-soon__cyberpunk {
+        grid-area: 1/1/2/3;
+    }
+
+    .coming-soon__treasure-ilend {
+        grid-area: 2/1/3/2;
+    }
+
+    .coming-soon__dead-or-alive {
+        grid-area: 2/2/3/3;
+    }
+
+    .coming-soon__treasure-ilend .coming-soon__conainer,
+    .coming-soon__dead-or-alive .coming-soon__conainer,
+    .coming-soon__cyberpunk .coming-soon__conainer {
+        margin-bottom: 0px;
+    }
+
+    .coming-soon__treasure-ilend,
+    .coming-soon__dead-or-alive {
+        margin-top: 30px;
+    }
+
+    .coming-soon__dead-or-alive {
+        padding-top: 230px;
+        margin-left: 15px;
+    }
+
+    .coming-soon__treasure-ilend {
+        margin-right: 15px;
+    }
+    .coming-soon__title {
+        font-size: 44px;
+    }
+}
+
+@media (min-width:992px) {
+    .coming-soon .grid-container {
+        grid-template-columns: 17fr 13fr;
+        grid-template-rows: 330px 339px;
+    }
+    .coming-soon__cyberpunk {
+        grid-area: 1/1/3/2;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .coming-soon__treasure-ilend {
+        grid-area: 1/2/2/3;
+        margin-right: 5px;
+        margin-left: 25px;
+        margin-top: 0px;
+    }
+
+    .coming-soon__dead-or-alive {
+        grid-area: 2/2/3/3;
+        margin-right: 5px;
+        margin-left: 25px;
+        margin-top: 30px;
+        padding-top: 209px;
+    }
+    .coming-soon__title {
+        font-size: 50px;
+    }
+
 }

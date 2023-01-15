@@ -1,0 +1,65 @@
+.how-to-play {
+    vertical-align: baseline;
+    background-color: var(--background-color);
+    color: var(--text-about-paragraph);
+    justify-content: center;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+.how-to-play__title {
+    /**font: var(--accent-font);**/
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: -0.798px;
+    text-align: center;
+    color: var(--text-main-color);
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.how-to-play__rule {
+    background-color: var(--block-color);
+    justify-content: center;
+    text-align: center;
+    height: 183px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+}
+
+.rule__pic {
+    filter: invert(90%) sepia(15%) saturate(2847%) hue-rotate(328deg) brightness(104%) contrast(103%);
+    height: 50px;
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 33px;
+}
+
+.rule__text {
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    margin-block-start: 20px;
+    margin-bottom: 34px;
+}
+
+.how-to-play__rules {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+    .how-to-play__rules {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 992px) {
+    .how-to-play__rules {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
