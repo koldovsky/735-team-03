@@ -9,7 +9,8 @@
 }
 
 .about-maze__info {
-    padding-top: 30px;
+    padding-top: 50px;
+    margin-bottom: 48px;
 }
 
 .about-maze__image {
@@ -23,7 +24,7 @@
     font-size: 38px;
     font-weight: 900;
     line-height: 1.18;
-    letter-spacing: -.021em;
+    margin-top: 50px;
 }
 
 .about-maze__paragraph {
@@ -32,11 +33,13 @@
     font-family: 'Roboto', sans-serif;
     line-height: 25.5px;
     color: var(--text-about-paragraph);
+    margin-top: 28px;
+    margin-bottom: 1px;
 }
 
 .about-maze__our-progress {
-    padding-top: 20px;
-    padding-bottom: 73px;
+    /* padding-top: 20px; */
+    padding-bottom: 94px;
 }
 
 .about-maze__our-progress>div {
@@ -44,12 +47,37 @@
 }
 
 .our-progress__quantity {
+    margin-top: 53px;
     font-size: 38px;
     font-weight: 900;
     color: var(--text-secondary-color);
 }
 
 .our-progress__text {
+    margin-top: 28px;
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
+}
+
+@media (max-width:768px) {
+    .about-maze__info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: flex-start;
+    }
+    .about-maze__info>.image-container {
+        margin-right: 15px;
+        grid-column: 1/1;
+    }
+    .about-maze__info>.text-container {
+        margin-left: 15px;
+        grid-column: 2/3;
+    }
+    .about-maze__title {
+        font-size: 44px;
+    }
+    .about-maze .max-width-container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
 }

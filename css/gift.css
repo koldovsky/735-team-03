@@ -4,7 +4,7 @@
 }
 
 .gift .max-width-container {
-    padding: 57px 24px 90px 24px;
+    padding: 90px 24px 90px 24px;
 }
 
 .gift__title {
@@ -16,8 +16,8 @@
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
     letter-spacing: 0;
-    margin-bottom: 38px;
-    margin-top: 25px;
+    margin-bottom: 65px;
+    margin-top: 29px;
 }
 .gift__short-form{
     display: flex;
@@ -30,7 +30,6 @@
     color: var(--text-input-color);
     padding: 18px 49px 18px 49px;
     margin-bottom: 24px;
-    margin-top: 12px;
     border-width: 0;
 }
 .gift__short-form>input:focus {
@@ -41,4 +40,5 @@
     background-color: var(--button-form-color);
     font-family: 'Open Sans', sans-serif;
     margin-top: 32px;
+    margin-bottom: 0px;
 }

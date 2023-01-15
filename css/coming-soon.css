@@ -1,10 +1,11 @@
 .coming-soon .max-width-container {
-    padding: 85px 15px 50px 15px;
+    padding: 85px 15px 0px 15px;
 }
 
 .coming-soon__title {
     font-size: 38px;
     text-align: center;
+    margin-bottom: 45px;
 }
 
 .coming-soon__treasure-ilend {
