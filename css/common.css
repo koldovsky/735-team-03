@@ -24,10 +24,10 @@
 
 * {
     box-sizing: border-box;
+    margin: 0px;
 }
 
 body {
-    margin: 0;
     background-color: var(--background-color);
 }
 
