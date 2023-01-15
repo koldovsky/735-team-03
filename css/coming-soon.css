@@ -17,11 +17,19 @@
 }
 
 .coming-soon__dead-or-alive {
-    padding-top: 230px;
+    padding-top: 209px;
+    background-image: linear-gradient(var(--overlay-backdround-coming-soon-dark), var(--overlay-backdround-coming-soon-dark)),
+        url(../img/dead-or-alive.webp);
+    background-position: 45% 49.74%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .coming-soon__cyberpunk .coming-soon__conainer {
     background-color: var(--background-text-coming-soon);
+}
+.coming-soon__treasure-ilend .coming-soon__conainer, .coming-soon__dead-or-alive .coming-soon__conainer {
+    background-color: var(--background-text-coming-soon-dark);
 }
 
 .coming-soon__conainer {
