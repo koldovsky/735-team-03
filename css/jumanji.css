@@ -1,4 +1,5 @@
 .content_title {
     display: flex;
     justify-content: center;
+    background-image: url(../img/our-rooms-jumanji.png);
 }
