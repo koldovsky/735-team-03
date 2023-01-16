@@ -26,6 +26,7 @@
     margin-right: 15px;
     margin-bottom: 50px;
     padding: 34px 28px 34px 28px;
+
 }
 
 .rule__pic {
@@ -48,7 +49,7 @@
 .how-to-play__rules {
     display: grid;
     grid-template-columns: 1fr;
-    margin: auto;
+
 }
 
 @media (min-width: 768px) {
@@ -56,6 +57,7 @@
         margin-left: 17px;
         margin-right: 17px;
     }
+
 
     .how-to-play__rules {
         grid-template-columns: 1fr 1fr;
@@ -78,8 +80,7 @@
 
 @media (min-width: 992px) {
     .how-to-play {
-        margin-left: 25px;
-        margin-right: 25px;
+        margin: auto;
     }
 
     .how-to-play__rules {
@@ -88,7 +89,7 @@
 
     .how-to-play__rule {
         max-width: 370px;
-        height: 246.5px;
+        
     }
 
     .how-to-play__title {
