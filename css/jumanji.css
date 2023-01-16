@@ -1,3 +1,4 @@
-.content_text {
+.content_title {
     display: flex;
+    justify-content: center;
 }
