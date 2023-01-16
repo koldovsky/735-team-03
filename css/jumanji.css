@@ -4,7 +4,7 @@
     background-image: url(../img/our-rooms-jumanji.png);
     font-size: 60px;
     max-height: 352px;
-    max-height: 600px;
+    min-height: 600px;
 }
 
 
