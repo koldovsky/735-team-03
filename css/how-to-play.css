@@ -43,7 +43,6 @@
     font-size: 17px;
     margin-block-start: 20px;
 
-
 }
 
 .how-to-play__rules {
@@ -84,12 +83,16 @@
     }
 
     .how-to-play__rules {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
         grid-template-columns: 1fr 1fr 1fr;
     }
 
     .how-to-play__rule {
         max-width: 370px;
-        
+        height: 221px;
     }
 
     .how-to-play__title {
