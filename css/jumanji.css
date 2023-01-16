@@ -71,8 +71,7 @@
 }
 .gallery-jumanji__img {
     display: grid;
-    column-gap: 30px;
-	row-gap: 50px;
-	
+    
+    max-width: 20%;
 
 }
