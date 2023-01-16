@@ -4,4 +4,11 @@
     background-image: url(../img/our-rooms-jumanji.png);
     font-size: 60px;
     max-height: 352px;
+    max-height: 600px;
 }
+
+
+    .content__title {
+        display: flex;
+        text-align: start;
+    }
