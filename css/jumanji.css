@@ -1,33 +1,31 @@
-*{
-        font-family: Raleway;
- }
 .wrapper__text {
     display: flex;
+    display: block;
+    position: relative;
     justify-content: center;
     text-align: center;
     background-image: url(../img/our-rooms-jumanji.png);
+    padding-top: 250px;
     font-size: 60px;
-    
+    min-height: 600px;
+    max-width: 1200px;
+    min-width: auto;
+    margin: auto;
 }
 
-
-    .content__title {
-        display: flex;
-        text-align: start;
-    }
+.content__title {
+    padding-top: 0px;
+    display: flex;
+    text-align: start;
+    max-width: 1200px;
+    margin-left: auto;   
+}
 
 .content-about {
     display: grid;
-    
-
-}
-@media (min-width:768px) {
-    .content-about {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr ;
-        
-    }
+    align-items: start;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .content__text {
@@ -37,41 +35,61 @@
     margin-top: 30px;
 }
 
+.about-us__wrapper {
+    display: grid;
+    grid-template-rows: 1fr ;
+    grid-template-columns: 0.3fr 1fr;
+}
+.content__word {
+    color: var(--accent-color);
+}
+
+.gallery-jumanji__title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 44px;
+    margin: 25px;
+}
+
+.gallery-jumanji__wrapper {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;    
+}
+
 @media (min-width:768px) {
     .content__text {
         display: grid;
         grid-template-rows: 1fr;
         gap: 0px;
         align-items: center;
-}
-}
-.about-us__wrapper {
-    display: grid;
-    grid-template-rows: 1fr;
-    margin-top: 30px;
-}
-
-@media (min-width:768px) {
+    }
     .about-us__wrapper {
         display: grid;
         grid-template-rows: 1fr;
         gap: 0px;
         align-items: center;
-}
-}
-.content__word {
-    color: var(--accent-color);
-}
-.gallery-jumanji__title {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 44px;
-    margin: 25px;  
-}
-.gallery-jumanji__img {
-    display: grid;
-    
-    max-width: 20%;
-
+    }
+    .content-about {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        align-items: start;
+    }
+    p {
+        display: grid;
+        align-items: center;
+    }
+    .about-us__wrapper {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 0.3fr 1fr;
+        margin-top: 30px;
+        max-width: 1200px;
+        margin: auto;
+        justify-items: start;
+    }
 }
