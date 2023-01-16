@@ -15,18 +15,17 @@
     letter-spacing: -0.798px;
     text-align: center;
     color: var(--text-main-color);
-    margin-top: 45px;
-    margin-bottom: 45px;
+    margin: 45px;
 }
 
 .how-to-play__rule {
     background-color: var(--block-color);
     justify-content: center;
     text-align: center;
-    height: 183px;
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 50px;
+    padding: 34px 28px 34px 28px;
 }
 
 .rule__pic {
@@ -34,32 +33,65 @@
     height: 50px;
     max-height: 100%;
     max-width: 100%;
-    margin-top: 33px;
+
+
 }
 
 .rule__text {
     font-family: Roboto, sans-serif;
     font-size: 17px;
     margin-block-start: 20px;
-    margin-bottom: 34px;
+
+
 }
 
 .how-to-play__rules {
     display: grid;
     grid-template-columns: 1fr;
+    margin: auto;
 }
 
 @media (min-width: 768px) {
+    .how-to-play {
+        margin-left: 17px;
+        margin-right: 17px;
+    }
+
     .how-to-play__rules {
-        display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+    .how-to-play__rule {
+        height: 209px;
+    }
+
+
+    .how-to-play__title {
+        font-size: 44px;
+    }
+
+    .rule__pic {
+        height: 70px;
+    }
+
 }
 
 @media (min-width: 992px) {
+    .how-to-play {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
     .how-to-play__rules {
-        display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    .how-to-play__rule {
+        max-width: 370px;
+        height: 246.5px;
+    }
+
+    .how-to-play__title {
+        font-size: 50px;
+    }
 }
