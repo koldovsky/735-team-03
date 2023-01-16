@@ -2,13 +2,12 @@
     vertical-align: baseline;
     background-color: var(--background-color);
     color: var(--text-about-paragraph);
-    justify-content: center;
     margin-left: 9px;
     margin-right: 9px;
 }
 
 .how-to-play__title {
-    /**font: var(--accent-font);**/
+    /*font: var(--accent-font);*/
     font-size: 38px;
     font-style: normal;
     font-weight: 900;
@@ -20,7 +19,6 @@
 
 .how-to-play__rule {
     background-color: var(--block-color);
-    justify-content: center;
     text-align: center;
     margin-left: 15px;
     margin-right: 15px;
