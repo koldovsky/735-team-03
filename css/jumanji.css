@@ -21,6 +21,7 @@
 
 .main-jumanji {
     display: grid;
+    justify-content: space-between;
 
 }
 @media (min-width:768px) {
