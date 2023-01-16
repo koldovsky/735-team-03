@@ -1,12 +1,18 @@
+*{
+        font-family: Raleway;
+ }
 .wrapper__text {
     display: flex;
     justify-content: center;
+    text-align: center;
     background-image: url(../img/our-rooms-jumanji.png);
     font-size: 60px;
     max-height: 352px;
     min-height: 600px;
 }
+@media (min-width:768px) {
 
+}
 
     .content__title {
         display: flex;
