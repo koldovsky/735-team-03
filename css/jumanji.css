@@ -7,27 +7,72 @@
     text-align: center;
     background-image: url(../img/our-rooms-jumanji.png);
     font-size: 60px;
-    max-height: 352px;
-    min-height: 600px;
+    
 }
-@media (min-width:768px) {
 
-}
 
     .content__title {
         display: flex;
         text-align: start;
     }
 
-.main-jumanji {
+.content-about {
     display: grid;
-    justify-content: space-between;
+    
 
 }
 @media (min-width:768px) {
-    .main-jumanji {
+    .content-about {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr ;
+        
     }
+}
+
+.content__text {
+    display: grid;
+    grid-template-rows: 1fr;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+@media (min-width:768px) {
+    .content__text {
+        display: grid;
+        grid-template-rows: 1fr;
+        gap: 0px;
+        align-items: center;
+}
+}
+.about-us__wrapper {
+    display: grid;
+    grid-template-rows: 1fr;
+    margin-top: 30px;
+}
+
+@media (min-width:768px) {
+    .about-us__wrapper {
+        display: grid;
+        grid-template-rows: 1fr;
+        gap: 0px;
+        align-items: center;
+}
+}
+.content__word {
+    color: var(--accent-color);
+}
+.gallery-jumanji__title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 44px;
+    margin: 25px;  
+}
+.gallery-jumanji__img {
+    display: grid;
+    column-gap: 30px;
+	row-gap: 50px;
+	
+
 }
