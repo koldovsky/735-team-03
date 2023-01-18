@@ -40,8 +40,9 @@ body {
     background-color: var(--background-color);
 }
 
-
-.max-width-container {
-    max-width: 1170px;
-    margin: auto;
+@media (min-width: 1180px) {
+    .max-width-container {
+        width: 1170px;
+        margin: auto;
+    }
 }
