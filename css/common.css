@@ -35,15 +35,15 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    text-decoration: none;
 }
 
 body {
     background-color: var(--background-color);
 }
 
-@media (min-width: 1180px) {
-    .max-width-container {
-        width: 1170px;
-        margin: auto;
-    }
+
+.max-width-container {
+    width: 1170px;
+    margin: auto;
 }
