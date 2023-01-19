@@ -1,15 +1,14 @@
 .header__text {
-    margin: 44px 0px 51px 0px;
-    display: flex;
+    margin: 50px;
+    text-align: center;
     font-size: 50px;
-    justify-content: center;
+
 }
 
 .subtitle__text {
-    margin: 95px 0px 51px 0px;
-    display: flex;
+    margin: 50px;
+    text-align: center;
     font-size: 50px;
-    justify-content: center;
 }
 
 .reviews__container {
@@ -21,7 +20,10 @@
     flex-wrap: wrap;
     flex-shrink: 3;
     gap: 30px;
-    box-sizing: content-box;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .gallery__container {
@@ -32,6 +34,10 @@
     flex-wrap: wrap;
     flex-shrink: 3;
     gap: 30px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .button__container {
@@ -42,15 +48,26 @@
 .button__instagram {
     width: 250px;
     height: 50px;
+    margin-top: 50px;
     margin-bottom: 50px;
     border-width: 2px;
     border-radius: 25px;
-    background-color: black;
-    border-color: #806eff;
+    background-color: var(--background-color);
+    border-color: var(--text-secondary-color);
     border-style: solid;
     display: flex;
     justify-content: center;
     text-decoration: none;
+}
+
+.button__instagram:hover {
+    opacity: 1;
+    background-color: var(--text-secondary-color);
+    transition: all 1s ease;
+}
+
+.button__instagram:not(:hover) {
+    transition: 1s;
 }
 
 .button__text {
@@ -58,12 +75,13 @@
     font-size: 13px;
     display: flex;
     align-self: center;
-    padding-left: 10px;
+    padding-left: 5px;
     color: white;
 }
 
 .button__icon-container {
     padding-top: 11px;
+    padding-left: 10px;
 }
 
 .instagram__icon {
@@ -75,44 +93,53 @@
 .image__one {
     width: 250px;
     height: 250px;
+    object-fit: cover;
 }
 
 .image__two {
     width: 436px;
     height: 250px;
+    object-fit: cover;
 }
 
 .image__three {
     width: 343px;
     height: 250px;
+    object-fit: cover;
 }
 
 .image__four {
     width: 436px;
     height: 250px;
+    object-fit: cover;
 }
 
 .image__five {
     width: 343px;
     height: 250px;
+    object-fit: cover;
 }
 
 .image__six {
     width: 250px;
     height: 250px;
+    object-fit: cover;
 }
 
 .review__one {
     width: 353px;
     height: 345px;
+    object-fit: cover;
 }
 
 .review__two {
     width: 353px;
     height: 345px;
+    object-fit: cover;
 }
 
 .review__three {
     width: 353px;
     height: 345px;
+    object-fit: cover;
 }
