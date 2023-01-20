@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-/* тимчасово */
-
 .footer {
     background-color: var(--footer-background-color);
     padding-left: 15px;
@@ -70,6 +67,7 @@
     margin: 0px 7.5px 15px 7.5px;
     text-decoration: none;
 }
+
 
 .footer__text-container {
     display: flex;
