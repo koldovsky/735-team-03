@@ -1,11 +1,12 @@
+
 (function () {
 
     const slides = [
-        '<img src="img/junanji-first.jpg alt="room photo">',
-        '<img src="img/junanji-second.jpg alt="room photo">',
-        '<img src="img/junanji-third.jpg alt="room photo">',
-        '<img src="img/junanji-fourth.jpg alt="room photo">',
-        '<img src="img/junanji-fifth.jpg alt="room photo">'
+        '<img src="../img/jumanji-first.jpg" alt="room photo">',
+        '<img src="../img/jumanji-second.jpg" alt="room photo">',
+        '<img src="../img/jumanji-third.jpg" alt="room photo">',
+        '<img src="../img/jumanji-fourth.jpg" alt="room photo">',
+        '<img src="../img/jumanji-fifth.jpg" alt="room photo">'
     ];
 
     let currentSlideIdx = 0;
@@ -18,7 +19,7 @@
 
     function nextSlide() {
         currentSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
-    renderSlides();
+        renderSlides();
     }
 
     setInterval(nextSlide, 3000);

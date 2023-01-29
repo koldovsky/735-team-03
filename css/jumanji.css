@@ -3,20 +3,26 @@
 .wrapper__text {
     display: flex;
     display: block;
-    position: relative;
     justify-content: center;
     text-align: center;
     background-image: url(../img/our-rooms-jumanji.png);
     padding-top: 250px;
     font-size: 60px;
     min-height: 600px;
-    max-width: 100%;
+    width: 100%;
     min-width: auto;
     margin: auto;
+    background-size: 100%;
+    max-height: 1200px;
+    object-fit: cover;
+}
+
+svg {
+    margin-right: 100px;
+
 }
 
 .content__title {
-    padding-top: 0px;
     display: flex;
     text-align: start;
     max-width: 1200px;
@@ -24,9 +30,9 @@
 }
 
 .content-about {
-
     max-width: 1170px;
-    margin: 0;
+    margin-top: 40px;
+    min-height: 100%;
 }
 
 .content__text {
@@ -34,7 +40,6 @@
     grid-template-rows: 1fr;
     font-size: 17px;
     margin-top: 30px;
-
 }
 
 .about-us__wrapper {
@@ -55,21 +60,14 @@
     margin: 25px;
 }
 
-
-
-
-
 .gallery-jumanji__wrapper {
     display: grid;
     grid-template-columns: 1fr;
-
     max-width: 100%;
-
 }
 
 .gallery-jumanji__img {
     max-width: 100%;
-
     max-height: 300px;
     min-width: 250px;
 }
@@ -82,10 +80,28 @@
     width: 100%;
 }
 
-
-
+.carousel__slide-container img {
+    display: grid;
+    grid-template-columns: 1fr;
+    object-fit: cover;
+    width: 100%;
+    min-height: 500px;
+    max-height: 500px;
+    padding: 15px;
+}
 
 @media (min-width:768px) {
+
+    .carousel__slide-container img {
+        display: grid;
+        grid-template-columns: 1fr;
+        object-fit: cover;
+        max-width: 100%;
+        padding: 15px;
+        height: 100%;
+        width: 100%;
+        max-height: 850px;
+    }
 
     .gallery-jumanji__wrapper {
         display: grid;
@@ -94,14 +110,11 @@
         margin: 0px;
         align-self: center;
         justify-self: center;
-
     }
-
 
     .gallery-jumanji__img {
         max-width: 100%;
-
-        max-height: 180px;
+        max-height: 300px;
         min-width: 150px;
     }
 
@@ -139,5 +152,5 @@
     p {
         display: grid;
         align-items: center;
-    } 
+    }
 }
