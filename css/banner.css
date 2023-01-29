@@ -1,0 +1,59 @@
+.banner {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.31) 0%, rgba(1, 1, 1) 100%), url(../img/background-banner.webp);
+    background-size: cover;
+    background-position: 65.31% 44.06%;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__image {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: 51.608% 50%;
+    filter: saturate(140%);
+    min-height: 32px;
+    max-width: 1170px;
+}
+
+.banner__subtitle {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 30px;
+    text-align: center;
+    color: var(--text-main-color);
+    margin: 20px;
+}
+
+.banner__buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.left__button {
+    padding: 20px 68px 20px 68px;
+    margin: 10px;
+    
+}
+
+@media (min-width: 992px) {
+    .banner {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+}
+
+@media (min-width: 517px) {
+    .banner__buttons {
+        flex-direction: row;
+    }
+}

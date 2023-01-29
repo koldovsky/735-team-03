@@ -1,0 +1,102 @@
+.footer {
+    background-color: var(--footer-background-color);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer__container {
+    padding: 50px 24px 15px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__logo {
+    margin: auto;
+    display: block;
+    width: 156px;
+    margin-top: 50px;
+    margin-bottom: 33px;
+}
+
+.footer__subtitle {
+    display: block;
+    margin: auto;
+    color: var(--footer-text-color);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+
+    text-align: center;
+    line-height: 23.38px;
+    max-width: 560px;
+}
+
+.footer__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 46px;
+    margin-bottom: 30px;
+}
+
+.menu__item {
+    color: var(--footer-text-color);
+    font-family: Roboto, sans-serif;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 10px 5px 10px 5px;
+}
+
+.menu__item:hover {
+    color: var(--footer-accent-color);
+}
+
+.footer__social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons__icon {
+    filter: invert(42%) sepia(22%) saturate(3634%) hue-rotate(221deg) brightness(105%) contrast(101%);
+    margin: 0px 7.5px 15px 7.5px;
+    text-decoration: none;
+}
+
+
+.footer__text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__text {
+    margin: 5px 10px 23px 10px;
+    color: var(--footer-accent-color);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@media (min-width: 772px) {
+    .footer__text-container {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 991px) {
+    .footer__menu {
+        flex-direction: row;
+    }
+
+    .menu__item {
+        margin-left: 7.5px;
+        margin-right: 7.5px;
+    }
+}
