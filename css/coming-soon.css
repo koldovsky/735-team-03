@@ -147,3 +147,9 @@
     }
 
 }
+
+@media (min-width:1200px) {
+    .coming-soon .max-width-container {
+        padding: 85px 10px 95px 10px;
+    }
+}
