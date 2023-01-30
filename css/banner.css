@@ -39,10 +39,40 @@
     gap: 20px;
 }
 
-.left__button {
+.banner__left-button {
+    display: block;
+    box-sizing: border-box;
     padding: 20px 68px 20px 68px;
     margin: 10px;
-    
+    color: var(--banner-text-color);
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.3px;
+    line-height: 14.3px;
+    background-color: var(--banner-left-button-color);
+    box-shadow: rgba(255, 197, 53, 0.3) 0px 10px 23.8px 1.2px;
+    border-width: 2px;
+    border-radius: 27px;
+}
+
+.banner__right-button {
+    display: block;
+    box-sizing: border-box;
+    padding: 20px 68px 20px 68px;
+    margin: 10px;
+    color: var(--banner-text-color);
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.3px;
+    line-height: 14.3px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: var(--banner-right-button-color);
+    border-width: 2px;
+    border-radius: 27px;
 }
 
 @media (min-width: 992px) {
