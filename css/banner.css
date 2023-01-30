@@ -32,11 +32,11 @@
 }
 
 .banner__buttons {
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
 }
 
 .banner__left-button {
@@ -55,6 +55,8 @@
     box-shadow: rgba(255, 197, 53, 0.3) 0px 10px 23.8px 1.2px;
     border-width: 2px;
     border-radius: 27px;
+    border-style: solid;
+    border-color: var(--banner-left-button-color)
 }
 
 .banner__right-button {
@@ -73,6 +75,7 @@
     border-color: var(--banner-right-button-color);
     border-width: 2px;
     border-radius: 27px;
+    border-style: solid;
 }
 
 @media (min-width: 992px) {
