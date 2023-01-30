@@ -37,6 +37,7 @@
     --banner-left-button-color-hover: #ffa700;
     --banner-right-button-color: #806eff;
     --banner-right-button-color-hover: #806eff;
+    --banner-right-button-color-active: #ffc535;
 
     color: var(--text-main-color);
     font-family: 'Raleway', sans-serif;

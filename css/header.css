@@ -61,12 +61,6 @@
 }
 
 .menu__button {
-    font-family: "Open Sans", sans-serif;
-    text-decoration: none;
-    color: var(--header-text-color);
-    font-size: 11.7px;
-    font-weight: 600;
-    font-style: normal;
     background-color: rgba(0, 0, 0, 0);
     border-color: var(--header-button-color);
     border-width: 1.6px;
@@ -75,4 +69,13 @@
     padding: 17px 40px 17px 40px;
     margin: 10px;
     line-height: 11.7px;
+}
+
+.menu__button-link {
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    color: var(--header-text-color);
+    font-size: 11.7px;
+    font-weight: 600;
+    font-style: normal;
 }

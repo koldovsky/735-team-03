@@ -89,6 +89,11 @@
     background-color: var(--banner-right-button-color-hover);
 }
 
+.banner__right-button:active {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: var(--banner-right-button-color-active);
+}
+
 @media (min-width: 992px) {
     .banner {
         padding-top: 200px;
