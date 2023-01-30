@@ -6,7 +6,6 @@
 }
 
 .how-to-play__title {
-    /*font: var(--accent-font);*/
     font-size: 38px;
     font-style: normal;
     font-weight: 900;
@@ -73,7 +72,7 @@
     }
 
     .how-to-play__rules {
-        display: flex;
+
         justify-content: center;
         width: 100%;
     }
