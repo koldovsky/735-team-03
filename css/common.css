@@ -26,9 +26,12 @@
     --footer-background-color: #0d0e10;
     --footer-text-color: #ffffff;
     --footer-accent-color: #ffc535;
+    --brand-color: #806eff;
     --banner-text-color: #ffffff;
     --banner-left-button-color: #ffc535;
+    --banner-left-button-color-hover: #ffa700;
     --banner-right-button-color: #806eff;
+    --banner-right-button-color-hover: #806eff;
 
     color: var(--text-main-color);
     font-family: 'Raleway', sans-serif;

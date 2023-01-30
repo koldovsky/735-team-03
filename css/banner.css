@@ -18,7 +18,9 @@
     object-position: 51.608% 50%;
     filter: saturate(140%);
     min-height: 32px;
-    max-width: 1170px;
+    max-width: 1122px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .banner__subtitle {
@@ -59,6 +61,11 @@
     border-color: var(--banner-left-button-color)
 }
 
+.banner__left-button:hover {
+    background-color: var(--banner-left-button-color-hover);
+    border-color: var(--banner-left-button-color-hover)
+}
+
 .banner__right-button {
     display: block;
     box-sizing: border-box;
@@ -76,6 +83,10 @@
     border-width: 2px;
     border-radius: 27px;
     border-style: solid;
+}
+
+.banner__right-button:hover {
+    background-color: var(--banner-right-button-color-hover);
 }
 
 @media (min-width: 992px) {
