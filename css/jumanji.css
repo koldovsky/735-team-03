@@ -12,9 +12,10 @@
     width: 100%;
     min-width: auto;
     margin: auto;
-    background-size: 100%;
+    background-size: cover;
     max-height: 1200px;
     object-fit: cover;
+    background-position-x: -150px;
 }
 
 svg {
@@ -91,6 +92,10 @@ svg {
 }
 
 @media (min-width:768px) {
+
+    .wrapper__text {
+        background-position-x: 0px;
+    }
 
     .carousel__slide-container img {
         display: grid;
