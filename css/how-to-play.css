@@ -72,7 +72,7 @@
     }
 
     .how-to-play__rules {
-
+        display: flex;
         justify-content: center;
         width: 100%;
     }
