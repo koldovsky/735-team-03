@@ -8,6 +8,7 @@
     <title>QuestMaze</title>
     <link rel="shortcut icon" href="img/questmaze-icon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/gallery-slider.css">
 </head>
 
 <body>
@@ -235,23 +236,27 @@
                 <h2 class="header__text">
                     Gallery
                 </h2>
-                <img class="header__img" width="1088" height="525" src="img/gallery-main-image.jfif"
-                    alt="Gallery main image">
-                <!--I think here is should be tag <a> because of carousel but I`ve left it as simple img-->
             </div>
-            <div class="gallery__img">
-                <img class="gallery__img-zero" width="170" src="img/gallery-secondary-image-zero.jfif" alt="Image zero">
-                <img class="gallery__img-first" width="170" src="img/gallery-secondary-image-first.jfif"
-                    alt="Image first">
-                <img class="gallery__img-second" width="170" src="img/gallery-secondary-image-second.jfif"
-                    alt="Image second">
-                <img class="gallery__img-third" width="170" src="img/gallery-secondary-image-third.jfif"
-                    alt="Image third">
-                <img class="gallery__img-fourth" width="170" src="img/gallery-secondary-image-fourth.jfif"
-                    alt="Image fourth">
-                <img class="gallery__img-fifth" width="170" src="img/gallery-secondary-image-fifth.jfif"
-                    alt="Image fifth">
+            <div class="gallery__slider slider">
+                <div class="slider__item">
+                <img src="img/gallery-main-image.jfif" alt="1 image of the gallery">
+                </div>
+                <div class="slider__item">
+                    <img src="img/gallery-secondary-image-second.jfif" alt="2 image of the gallery">
+                </div>
+                <div class="slider__item">
+                    <img src="img/gallery-secondary-image-third.jfif" alt="3 image of the gallery">
+                </div>
+                <div class="slider__item">
+                    <img src="img/gallery-secondary-image-fourth.jfif" alt="4 image of the gallery">
+                </div>
+                <div class="slider__item">
+                    <img src="img/gallery-secondary-image-fifth.jfif" alt="5 image of the gallery">
+                </div>
             </div>
+            <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+            <script src="js/slick.min.js"></script>
+            <script src="js/gallery-carousel.js"></script>
         </section>
         <a href="jumanji.html">12345</a>
         <!-- Iryna Vdovych -->
