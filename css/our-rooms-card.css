@@ -3,7 +3,6 @@
     font-weight: 900;
     text-align: center;
     margin-top: 50px;
-    
 }
 
 .room__image {
@@ -23,9 +22,10 @@
 
 .room__main-info h3 {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 500;
     color: var(--footer-accent-color);
     margin-bottom: 10px;
+    font-family: Roboto,sans-serif;
 }
 
 .room__main-info p {
@@ -62,4 +62,30 @@ font-weight: 400;
 .room__button:hover {
     background-color: var(--brand-color);
     transition: 400ms;
+}
+
+@media (min-width:768px) {
+    .room__card {
+        display: grid;
+        grid-template-columns: 5fr 4fr;
+    }
+
+    .room__image {
+        height: calc((50vw - 40px)/2);
+    }
+
+    .room__info {
+        margin-top: 11px;
+        padding-left: 30px;
+    }
+
+    .room__card {
+        padding: 50px 40px 50px 40px;
+    }
+
+    .room__main-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
 }
