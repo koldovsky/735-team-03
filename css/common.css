@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 :root {
     --text-main-color: #ffffff;
@@ -39,6 +35,10 @@
     --banner-right-button-color: #806eff;
     --banner-right-button-color-hover: #806eff;
     --banner-right-button-color-active: #ffc535;
+    --registration-background-color: #141616FF;
+    --registration-input-background-color: #232525FF;
+    --registration-input-text-color: #909191FF;
+    --registration-button-shadow-color:#FFC5354C;
 
     color: var(--text-main-color);
     font-family: 'Raleway', sans-serif;

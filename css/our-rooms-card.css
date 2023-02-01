@@ -25,7 +25,7 @@
     font-weight: 500;
     color: var(--footer-accent-color);
     margin-bottom: 10px;
-    font-family: Roboto,sans-serif;
+    font-family: 'Roboto',sans-serif;
 }
 
 .room__main-info p {
@@ -33,7 +33,7 @@
 }
 
 .room__info p {
-font-family: Roboto,sans-serif;
+font-family: 'Roboto',sans-serif;
 font-size: 17px;
 font-weight: 400;
 }
@@ -46,7 +46,7 @@ font-weight: 400;
 
 .room__button {
     color: var(--text-main-color);
-    font-family: Roboto,sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-size: 13px;
     font-weight: 400;
     text-decoration: none;
