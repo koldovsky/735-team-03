@@ -9,7 +9,6 @@
 }
 
 .coming-soon__treasure-ilend {
-    overflow-x: none;
     margin-bottom: 50px;
     padding-top: 230px;
     background-image: linear-gradient(var(--overlay-backdround-coming-soon-dark), var(--overlay-backdround-coming-soon-dark)),
@@ -20,7 +19,6 @@
 }
 
 .coming-soon__dead-or-alive {
-    overflow-x: none;
     margin-bottom: 50px;
     padding-top: 210px;
     background-image: linear-gradient(var(--overlay-backdround-coming-soon-dark), var(--overlay-backdround-coming-soon-dark)),
@@ -47,7 +45,6 @@
 }
 
 .coming-soon__cyberpunk {
-    overflow-x: none;
     background-image: linear-gradient(var(--overlay-backdround-coming-soon), var(--overlay-backdround-coming-soon)),
         url(../img/cybepank-man-in-glass.webp);
     background-position: 71.56% 42.15%;
