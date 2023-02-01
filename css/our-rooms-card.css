@@ -67,12 +67,12 @@ font-weight: 400;
 @media (min-width:768px) {
     .room__card {
         display: grid;
-        grid-template-columns: 5fr 4fr;
+        grid-template-columns: 9fr 7fr;
     }
 
     .room__image {
-        height: calc((50vw)/2);
-        object-position: 50% 42%;
+        height: calc(52vw/2);
+        object-position: 50% 62%;
         max-height: 330px;
     }
 
@@ -94,4 +94,20 @@ font-weight: 400;
     .room__description {
         margin-bottom: 58px;
     }
+
+    .our-rooms__title {
+        font-size: 44px;
+    }
+
+}
+
+@media (min-width: 1240px) {
+    .our-rooms__title {
+        font-size: 50px;
+    }
+
+    .room__card {
+        padding: 50px 0px 50px 0px;
+    }
+
 }
