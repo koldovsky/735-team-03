@@ -78,6 +78,13 @@
         }
     }
 
+    function addSelectOption (questRooms) {
+        const ourRoomsList = document.querySelector('.registration__form-quest-lits');
+        for (const quest of questRooms) {
+            ourRoomsList.innerHTML += `<option value="${quest.cardSubclass}">${quest.roomName}</option>`;
+        }
+    }
     renderRooms(questRooms);
+    addSelectOption(questRooms);
 
 })();
