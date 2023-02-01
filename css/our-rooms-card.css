@@ -71,7 +71,9 @@ font-weight: 400;
     }
 
     .room__image {
-        height: calc((50vw - 40px)/2);
+        height: calc((50vw)/2);
+        object-position: 50% 42%;
+        max-height: 330px;
     }
 
     .room__info {
@@ -87,5 +89,9 @@ font-weight: 400;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+    }
+
+    .room__description {
+        margin-bottom: 58px;
     }
 }
