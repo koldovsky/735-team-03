@@ -34,7 +34,7 @@
     display: block;
     width: 30px;    
     height: 3px;
-    margin: 6px auto;
+    margin: 5px auto;
     background-color: var(--header-hamb-color);
     transition: 0.2s;
 }
