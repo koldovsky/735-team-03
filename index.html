@@ -13,7 +13,7 @@
 
 <body>
     <!-- Ivan Chyk -->
-    <header class="header ">
+    <header class="header">
         <div class="header__line">
             <div class="header__line-container max-width-container">
                 <a class="header__number" href="tel:+1-234-567-8900">+ 1-234-567-8900</a>
@@ -34,7 +34,13 @@
             <a class="header__logo-link" href="#">
                 <img class="header__logo" src="img/questmaze-logo.svg" alt="QuestMaze Logo">
             </a>
-            <nav class="header__menu menu">
+            <div class="hamb">
+                <div class="hamb__field" id="hamb">
+                  <span class="bar"></span> <span class="bar"></span>
+                  <span class="bar"></span>
+                </div>
+              </div>
+            <nav class="header__menu menu" id="menu">
                 <a class="menu__item" href="our-rooms.html">Our Rooms</a>
                 <a class="menu__item" href="gallery.html">Gallery</a>
                 <a class="menu__item" href="contacts.html">Contacts</a>
@@ -43,6 +49,7 @@
                 </span>
             </nav>
         </div>
+        <div class="popup" id="popup"></div>
     </header>
     <main class="main">
         <div class="banner">
@@ -320,6 +327,7 @@
             <p class="footer__text">All rights Reserved</p>
         </div>
     </footer>
+    <script src="js/hamburger-menu.js"></script>
     <script src="js/how-to-play.js"></script>
 </body>
 
