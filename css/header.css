@@ -17,13 +17,6 @@
     margin: 20px 15px 20px 15px;
 }
 
-/* .header__menu {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 572px;
-} */
-
 .menu__item {
     color: var(--header-text-color);
     font-family: Roboto, sans-serif;
