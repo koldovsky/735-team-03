@@ -20,7 +20,8 @@ function renderPopup() {
   popup.appendChild(line);
 }
 
-const links = Array.from(menu.children) + Array.from(line.children);
+const links = Array.from(menu.children);
+const close = Array.from(line.children);
 
 links.forEach((link) => {
   link.addEventListener("click", closeOnClick);
