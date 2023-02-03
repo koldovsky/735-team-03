@@ -1,4 +1,6 @@
+@import url(header.css);
 @import url(common.css);
+@import url(footer.css);
 
 .wrapper__text {
     display: flex;
@@ -13,27 +15,32 @@
     min-width: auto;
     margin: auto;
     background-size: cover;
-    max-height: 1200px;
     object-fit: cover;
     background-position-x: -150px;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 svg {
-    margin-right: 100px;
+
+    margin-right: 150px;
+    margin-left: 30px;
+
 
 }
 
 .content__title {
     display: flex;
-    text-align: start;
     max-width: 1200px;
     margin-left: auto;
+    font-size: 44px;
+    justify-content: center;
 }
 
 .content-about {
     max-width: 1170px;
     margin-top: 40px;
     min-height: 100%;
+    margin-bottom: 50px;
 }
 
 .content__text {
@@ -51,6 +58,8 @@ svg {
 
 .content__word {
     color: var(--accent-color);
+    font-size: 24px;
+    margin-bottom: 100px;
 }
 
 .gallery-jumanji__title {
@@ -73,6 +82,10 @@ svg {
     min-width: 250px;
 }
 
+.main-jumanji {
+    font-size: 17px;
+}
+
 .gallery-jumanji__wrapper img {
     object-fit: cover;
     max-width: 100%;
@@ -93,8 +106,14 @@ svg {
 
 @media (min-width:768px) {
 
+    svg {
+        margin-bottom: 40px;
+    }
+
     .wrapper__text {
         background-position-x: 0px;
+        min-height: 900px;
+        padding-top: 350px;
     }
 
     .carousel__slide-container img {
@@ -128,6 +147,7 @@ svg {
         grid-template-rows: 1fr;
         gap: 0px;
         align-items: center;
+        font-size: 24px;
     }
 
     .about-us__wrapper {
@@ -143,6 +163,7 @@ svg {
         max-width: 1200px;
         margin: auto;
         justify-items: start;
+        font-size: 24px;
     }
 
     .content-about {
@@ -152,10 +173,22 @@ svg {
         align-items: start;
         max-width: 100%;
         margin-left: 15px;
+
     }
 
     p {
         display: grid;
         align-items: center;
+    }
+
+    .content__title {
+        margin-top: 100px;
+        display: flex;
+        justify-content: start;
+    }
+
+    .about-us {
+        margin-top: 100px;
+        min-height: 100%;
     }
 }
