@@ -1,11 +1,11 @@
 (function () {
 
     const slides = [
-        '<img src="./img/jumanji-first.jpg" alt="room photo">',
-        '<img src="./img/jumanji-second.jpg" alt="room photo">',
-        '<img src="./img/jumanji-third.jpg" alt="room photo">',
-        '<img src="./img/jumanji-fourth.jpg" alt="room photo">',
-        '<img src="./img/jumanji-fifth.jpg" alt="room photo">'
+        '<img src="img/jumanji-first.jpg" alt="room photo">',
+        '<img src="img/jumanji-second.jpg" alt="room photo">',
+        '<img src="img/jumanji-third.jpg" alt="room photo">',
+        '<img src="img/jumanji-fourth.jpg" alt="room photo">',
+        '<img src="img/jumanji-fifth.jpg" alt="room photo">'
     ];
 
     let currentSlideIdx = 0;
