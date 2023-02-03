@@ -3,6 +3,7 @@ const popup = document.querySelector("#popup");
 const body = document.body;
 
 const menu = document.querySelector("#menu").cloneNode(1);
+const line = document.querySelector("#line").cloneNode(1);
 
 hamb.addEventListener("click", hambHandler);
 
@@ -16,9 +17,10 @@ function hambHandler(e) {
 
 function renderPopup() {
   popup.appendChild(menu);
+  popup.appendChild(line);
 }
 
-const links = Array.from(menu.children);
+const links = Array.from(menu.children) + Array.from(line.children);
 
 links.forEach((link) => {
   link.addEventListener("click", closeOnClick);
