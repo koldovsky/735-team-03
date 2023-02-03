@@ -212,9 +212,4 @@ body.noscroll {
         font-size: 17px;
         line-height: 25.5px;
     }
-    
-    .social-icons__icon {
-        padding-left: -7.5px;
-        padding-right: -7.5px;
-    }
 }
