@@ -72,7 +72,7 @@
                 <p class="room__description">
                     ${quest.roomDescription}
                 </p>
-                <a class="room__button" href="#">Learn More</a>
+                <a class="room__button" href="jumanji.html">Learn More</a>
             </div>
         </div>`;
         }
