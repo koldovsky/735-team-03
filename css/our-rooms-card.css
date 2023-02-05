@@ -1,0 +1,113 @@
+.our-rooms__title {
+    font-size: 38px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.room__image {
+    height: calc((100vw - 40px)/2);
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 62%;
+}
+
+.room__card {
+    padding: 50px 24px 50px 24px;
+}
+
+.room__info {
+    margin-top: 50px;
+}
+
+.room__main-info h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--footer-accent-color);
+    margin-bottom: 10px;
+    font-family: 'Roboto',sans-serif;
+}
+
+.room__main-info p {
+    padding-bottom: 23px;
+}
+
+.room__info p {
+font-family: 'Roboto',sans-serif;
+font-size: 17px;
+font-weight: 400;
+}
+
+.room__description {
+    margin-top: 13px;
+    margin-bottom: 38px;
+    line-height: 25px;
+}
+
+.room__button {
+    color: var(--text-main-color);
+    font-family: 'Roboto',sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 15px 44px 15px 44px;
+    border: 2px solid var(--brand-color);
+    border-radius: 25px;
+}
+.room__button {
+    background-color: var(--background-color);
+    transition: 400ms;
+}
+
+.room__button:hover {
+    background-color: var(--brand-color);
+    transition: 400ms;
+}
+
+@media (min-width:768px) {
+    .room__card {
+        display: grid;
+        grid-template-columns: 9fr 7fr;
+    }
+
+    .room__image {
+        height: calc(52vw/2);
+        object-position: 50% 62%;
+        max-height: 330px;
+    }
+
+    .room__info {
+        margin-top: 11px;
+        padding-left: 30px;
+    }
+
+    .room__card {
+        padding: 50px 40px 50px 40px;
+    }
+
+    .room__main-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .room__description {
+        margin-bottom: 58px;
+    }
+
+    .our-rooms__title {
+        font-size: 44px;
+    }
+
+}
+
+@media (min-width: 1240px) {
+    .our-rooms__title {
+        font-size: 50px;
+    }
+
+    .room__card {
+        padding: 50px 0px 50px 0px;
+    }
+
+}

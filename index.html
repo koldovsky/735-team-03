@@ -12,9 +12,9 @@
 
 <body>
     <!-- Ivan Chyk -->
-    <header class="header ">
+    <header class="header">
         <div class="header__line">
-            <div class="header__line-container max-width-container">
+            <div class="header__line-container max-width-container" id="line">
                 <a class="header__number" href="tel:+1-234-567-8900">+ 1-234-567-8900</a>
                 <div class="header__social-icons social-icons">
                     <a class="social-icons__icon" href="https://www.twitter.com">
@@ -30,10 +30,16 @@
             </div>
         </div>
         <div class="header-container max-width-container">
-            <a class="header__logo-link" href="#">
+            <a class="header__logo-link" href="index.html">
                 <img class="header__logo" src="img/questmaze-logo.svg" alt="QuestMaze Logo">
             </a>
-            <nav class="header__menu menu">
+            <div class="hamb">
+                <div class="hamb__field" id="hamb">
+                  <span class="bar"></span> <span class="bar"></span>
+                  <span class="bar"></span>
+                </div>
+              </div>
+            <nav class="header__menu menu" id="menu">
                 <a class="menu__item" href="our-rooms.html">Our Rooms</a>
                 <a class="menu__item" href="gallery.html">Gallery</a>
                 <a class="menu__item" href="contacts.html">Contacts</a>
@@ -42,9 +48,10 @@
                 </span>
             </nav>
         </div>
+        <div class="popup" id="popup"></div>
     </header>
     <main class="main">
-        <div class="banner max-width-container">
+        <div class="banner">
             <img class="banner__image" src="img/questmaze-banner.png" alt="QuestMaze Banner">
             <p class="banner__subtitle">
                 Grab your friends or family & get ready for thrilling adventures!
@@ -291,30 +298,40 @@
             <script src="js/slick.min.js"></script>
             <script src="js/gallery-carousel.js"></script>
         </section>
-        <a href="jumanji.html">12345</a>
+
         <!-- Iryna Vdovych -->
-        <section class="readyescape" id="ready-to-escape">
-            <iframe class="readyescape__map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1104.8428655840708!2d-73.91799664912942!3d40.64641104658227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25c95faf5da67%3A0x6c999d6dde9fe33e!2zMjk5IEUgODd0aCBTdCwgQnJvb2tseW4sIE5ZIDExMjM2LCDQodC_0L7Qu9GD0YfQtdC90ZYg0KjRgtCw0YLQuCDQkNC80LXRgNC40LrQuA!5e0!3m2!1suk!2sua!4v1673428453065!5m2!1suk!2sua"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-            <form class="escape__form form" action="https://formspree.io/f/myyayayg" method="POST">
-                <h2 class="form__title">Ready to escape?</h2>
-                <p class="form__text">Complete the form below, specify the room, the date and the quantity of players,
-                    and we will contact you to confirm your booking.</p>
-                <input class="form__fullname" name="fullname" type="text" placeholder="Enter your full name*" required>
-                <input class="form__phonenumber" name="phonenumber" pattern="[0-9]{7}" type="tel"
-                    placeholder="Enter your phone number*" required>
-                <input class="form__email" name="email" type="email" placeholder="Enter your e-mail*" required>
-                <input class="form__specifydetails" name="details" type="text" placeholder="Specify the details">
-                <button class="form__submit" type="submit">Start a Quest!</button>
-            </form>
+        <section id="ready-to-escape" class="readyescape container">
+            <div class="contact-map container__elem">
+                <iframe class="readyescape__map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1104.8428655840708!2d-73.91799664912942!3d40.64641104658227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25c95faf5da67%3A0x6c999d6dde9fe33e!2zMjk5IEUgODd0aCBTdCwgQnJvb2tseW4sIE5ZIDExMjM2LCDQodC_0L7Qu9GD0YfQtdC90ZYg0KjRgtCw0YLQuCDQkNC80LXRgNC40LrQuA!5e0!3m2!1suk!2sua!4v1673428453065!5m2!1suk!2sua"
+                    allowfullscreen=""  referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contact-form container__elem">
+                <form class="escape__form form" action="https://formspree.io/f/myyayayg" method="POST">
+                    <div class="form__container">
+                        <h2 class="form__title">Ready to Escape?</h2>
+                        <p class="form__text">
+                            Complete the form below, specify the room, the date and the quantity of players, and
+                            we will contact you to confirm your booking.
+                        </p>
+                        <input class="form__fullname form__elem" name="fullname" type="text"
+                            placeholder="Enter your full name*" required />
+                        <input class="form__phonenumber form__elem" name="phonenumber" pattern="[0-9]{7}" type="tel"
+                            placeholder="Enter your phone number*" required />
+                        <input class="form__email form__elem" name="email" type="email" placeholder="Enter your e-mail*"
+                            required />
+                        <input class="form__specifydetails form__elem" name="details" type="text"
+                            placeholder="Specify the details" />
+                        <button class="form__submit form__elem" type="submit">Start a Quest!</button>
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
     <!-- Ivan Chyk -->
     <footer class="footer">
         <div class="footer__container">
-            <a class="footer__logo-link" href="#">
+            <a class="footer__logo-link" href="index.html">
                 <img class="footer__logo" src="img/questmaze-logo.svg" alt="QuestMaze Logo">
             </a>
             <p class="footer__subtitle">
@@ -343,6 +360,7 @@
             <p class="footer__text">All rights Reserved</p>
         </div>
     </footer>
+    <script src="js/hamburger-menu.js"></script>
     <script src="js/how-to-play.js"></script>
 </body>
 
