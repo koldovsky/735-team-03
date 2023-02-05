@@ -4,7 +4,6 @@
 
 .wrapper__text {
     display: flex;
-    display: block;
     justify-content: center;
     text-align: center;
     background-image: url(../img/our-rooms-jumanji.png);
@@ -18,14 +17,20 @@
     object-fit: cover;
     background-position-x: -150px;
     background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+.wrapper {
+    font-family: Raleway, sans-serif;
+    font-weight: 900px;
+    color: white;
+    letter-spacing: -1.96px;
+    line-height: 98px;
 }
 
 svg {
-
     margin-right: 150px;
     margin-left: 30px;
-
-
 }
 
 .content__title {
@@ -84,6 +89,9 @@ svg {
 
 .main-jumanji {
     font-size: 17px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 24px;
 }
 
 .gallery-jumanji__wrapper img {
@@ -114,6 +122,7 @@ svg {
         background-position-x: 0px;
         min-height: 900px;
         padding-top: 350px;
+        font-size: 98px;
     }
 
     .carousel__slide-container img {
