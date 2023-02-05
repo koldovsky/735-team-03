@@ -1,16 +1,12 @@
 $(document).ready(function () {
     $('.gallery__slider').slick({
+        dots: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: true,
-        fade: true,
-        asNavFor: '.slider__nav'
+        customPaging: (slick, index) => {
+            const targetImage = slick.$slides.eq(index).find('img').attr('src');
+            return '<img src=" ' + targetImage + ' "/>';
+        }
     });
-    $('.slider__nav').slick({
-        slidesToShow: 5,
-        slidesToScroll: 0,
-        asNavFor: '.gallery__slider',
-        centerMode: true,
-        focusOnSelect: true
-    })
+
 });
