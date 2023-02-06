@@ -11,7 +11,7 @@
                 </p>
                 <div class="carousel-slide-button-container ">
                     <a class="carousel-slide-button-left" href="jumanji.html">Learn More</a>
-                    <a class="carousel-slide-button-right" href="#">See More Quests</a>
+                    <a class="carousel-slide-button-right" href="our-rooms.html">See More Quests</a>
                  </div>
             </div>    
              <div class="carousel-slide-img">
@@ -29,7 +29,7 @@
             </p>
             <div class="carousel-slide-button-container ">
             <a class="carousel-slide-button-left" href="jumanji.html">Learn More</a>
-            <a class="carousel-slide-button-right" href="#">See More Quests</a>
+            <a class="carousel-slide-button-right" href="our-rooms.html">See More Quests</a>
         </div>
         </div>
         <div class="carousel-slide-img">
@@ -46,7 +46,7 @@
             </p>
             <div class="carousel-slide-button-container ">
             <a class="carousel-slide-button-left" href="jumanji.html">Learn More</a>
-            <a class="carousel-slide-button-right" href="#">See More Quests</a>
+            <a class="carousel-slide-button-right" href="our-rooms.html">See More Quests</a>
         </div>
         </div>
         <div class="carousel-slide-img">
