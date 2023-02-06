@@ -10,14 +10,13 @@
     display: flex;
     justify-content: space-between;
     height: 93px;
+
 }
 
 .header__logo {
     width: 164px;
     margin: 20px 15px 20px 15px;
 }
-
-
 
 .hamb {
     display: flex;
@@ -208,5 +207,9 @@ body.noscroll {
         font-weight: 400;
         font-size: 17px;
         line-height: 25.5px;
+    }
+
+    .header__container {
+        padding: 20px 15px 20px 15px;
     }
 }
