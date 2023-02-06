@@ -62,7 +62,7 @@ body {
 
 @media (min-width: 1200px) {
     .max-width-container {
-        width: 1200px;
+        width: 1200px!important;
         margin: auto;
     }
 }
