@@ -10,7 +10,7 @@
                 You better hurry - it's a life-or-death matter.
                 </p>
                 <div class="carousel-slide-button-container ">
-                    <a class="carousel-slide-button-left" href="#">Learn More</a>
+                    <a class="carousel-slide-button-left" href="jumanji.html">Learn More</a>
                     <a class="carousel-slide-button-right" href="#">See More Quests</a>
                  </div>
             </div>    
@@ -28,7 +28,7 @@
                 You felt it could be dangerous. How to save your life from a crazy scientist?
             </p>
             <div class="carousel-slide-button-container ">
-            <a class="carousel-slide-button-left" href="#">Learn More</a>
+            <a class="carousel-slide-button-left" href="jumanji.html">Learn More</a>
             <a class="carousel-slide-button-right" href="#">See More Quests</a>
         </div>
         </div>
@@ -45,7 +45,7 @@
                 You are Sherlock Holmes' only hope to solving the mystery, so better get going — it's about to get real.
             </p>
             <div class="carousel-slide-button-container ">
-            <a class="carousel-slide-button-left" href="#">Learn More</a>
+            <a class="carousel-slide-button-left" href="jumanji.html">Learn More</a>
             <a class="carousel-slide-button-right" href="#">See More Quests</a>
         </div>
         </div>
