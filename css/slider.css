@@ -15,11 +15,10 @@
 .carousel-slide-container {
     max-width: 1170px;
     margin: 0 auto;
-    position: relative;
 }
 
 .carousel-slide-text {
-    width: 50%;
+    width: 535px;
     background: var(--block-color);
     padding: 60px 40px;
 }
@@ -40,7 +39,6 @@
 
 .carousel-slide-text-general {
     font-size: 22px;
-
 }
 
 .carousel-slide-text-general:first-child {
@@ -50,7 +48,7 @@
 .carousel-slide-button-left {
     display: block;
     box-sizing: border-box;
-    padding: 20px 68px 20px 68px;
+    padding: 20px 50px;
     margin: 10px;
     color: var(--banner-text-color);
     font-family: "Open Sans", sans-serif;
@@ -73,7 +71,7 @@
 .carousel-slide-button-right {
     display: block;
     box-sizing: border-box;
-    padding: 18px 49px 18px 49px;
+    padding: 18px 49px;
     margin: 10px;
     color: var(--banner-text-color);
     font-family: "Open Sans", sans-serif;
@@ -96,40 +94,60 @@
 }
 
 .carousel-slide-img {
-    width: 50%;
+    width: 535px;
     background: var(--block-color);
 }
 
 
 .carousel-slide-img img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
 
 }
 
 .carousel__btn-prev {
     position: absolute;
-    top: 1800px;
-    left: auto;
+    top: 280px;
+    left: -40px;
     width: 50px;
 }
 
 .carousel__btn-next {
     position: absolute;
-    top: 1800px;
-    right: 5px;
+    top: 280px;
+    right: -160px;
     width: 50px;
+}
 
+.carousel-slide-button-container {
+    display: flex;
+
+}
+.carousel-quests {
+    margin: 0 auto;
+    position: relative;
 }
 
 .slide-container {
-    flex-direction: column-reverse;
+    flex-wrap: wrap;
 }
 
 
-@media (min-width:600px) {
+@media screen and (max-width: 980px) {
     .slide-container {
-        flex-direction: row;
+        flex-wrap: wrap-reverse;
     }
-
+    .carousel-slide-text {
+        width: 100%;
+    }
+    .carousel-slide-img{
+        width: 100%;
+    }
+    .carousel-slide-button-right{
+        padding: 10px 25px;
+    }
+    .carousel-slide-button-left{
+        padding: 10px 25px;
+    }
 }
