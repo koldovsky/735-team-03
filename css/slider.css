@@ -109,14 +109,14 @@
 .carousel__btn-prev {
     position: absolute;
     top: 280px;
-    left: -40px;
+    left: -5px;
     width: 50px;
 }
 
 .carousel__btn-next {
     position: absolute;
     top: 280px;
-    right: -50px;
+    right: -5px;
     width: 50px;
 }
 

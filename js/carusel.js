@@ -50,7 +50,7 @@
         </div>
         </div>
         <div class="carousel-slide-img">
-            <img src="img/our-rooms-sherlock-holmes.png"  alt=" Sherlock Holmes">
+            <img src="img/our-rooms-sherlock-holmes.png"  alt="Sherlock Holmes">
         </div>
     </div>`
     ];
