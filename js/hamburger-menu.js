@@ -8,13 +8,13 @@
 
   hamb.addEventListener("click", hambHandler);
 
-      function hambHandler(e) {
-      e.preventDefault();
-      popup.classList.toggle("open");
-      hamb.classList.toggle("active");
-      body.classList.toggle("noscroll");
-      renderPopup();
-    }
+  function hambHandler(e) {
+    e.preventDefault();
+    popup.classList.toggle("open");
+    hamb.classList.toggle("active");
+    body.classList.toggle("noscroll");
+    renderPopup();
+  }
 
   function renderPopup() {
     popup.appendChild(menu);
